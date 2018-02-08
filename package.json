@@ -1,0 +1,43 @@
+{
+  "name": "iobroker.hikvision",
+  "version": "0.0.0",
+  "description": "ioBroker HikVision Adapter",
+  "author": {
+    "name": "Kirov Ilya",
+    "email": "kirovilya@gmail.com"
+  },
+  "contributors": [
+    {
+      "name": "Kirov Ilya",
+      "email": "kirovilya@gmail.com"
+    }
+  ],
+  "homepage": "https://github.com/kirovilya/ioBroker.hikvision",
+  "license": "MIT",
+  "keywords": [
+    "ioBroker",
+    "hikvision",
+    "Smart Home",
+    "home automation"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kirovilya/ioBroker.hikvision"
+  },
+  "dependencies": {
+     "node-hikvision-api": "https://github.com/trave/node-hikvision-api"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "mocha": "^4.1.0",
+    "chai": "^4.1.2"
+  },
+  "main": "main.js",
+  "scripts": {
+    "test": "node node_modules/mocha/bin/mocha --exit"
+  },
+  "bugs": {
+    "url": "https://github.com/kirovilya/ioBroker.hikvision/issues"
+  },
+  "readmeFilename": "README.md"
+}
