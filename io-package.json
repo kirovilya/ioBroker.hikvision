@@ -1,6 +1,6 @@
 {
     "common": {
-        "name": "template",
+        "name": "hikvision",
         "version": "0.0.1",
         "news": {
             "0.0.1": {
@@ -48,7 +48,7 @@
         },
         "platform": "Javascript/Node.js",
         "mode": "daemon",
-        "icon": "admin/hikvision.png",
+        "icon": "hikvision.png",
         "materialize": true,
         "enabled": true,
         "extIcon": "https://raw.githubusercontent.com/kirovilya/ioBroker.hikvision/master/admin/hikvision.png",
